@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
+  "engines": {
+    "node": "12.16.2"
+  },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -37,12 +40,16 @@
     "@ionic/angular": "^5.0.5",
     "angular-cli-ghpages": "^0.6.2",
     "angular2-swing": "^0.14.0",
+    "body-parser": "^1.19.0",
     "chart.js": "^2.9.3",
     "cordova-plugin-camera": "^4.1.0",
     "cordova-plugin-geolocation": "^4.0.2",
     "core-js": "^3.6.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "ionic-swing": "^4.1.1",
     "moment": "^2.24.0",
+    "morgan": "^1.10.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.11.1",
     "zone.js": "~0.10.3"
@@ -56,6 +63,7 @@
     "@angular/compiler-cli": "^9.0.7",
     "@angular/language-service": "~9.1.1",
     "@ionic/angular-toolkit": "^2.2.0",
+    "@ionic/app-scripts": "^3.2.4",
     "@types/jasmine": "~3.5.10",
     "@types/jasminewd2": "~2.0.8",
     "@types/node": "~13.11.0",
